@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "es6",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "src/scripts/@types"
+    ],
+  },
+}
